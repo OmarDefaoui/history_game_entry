@@ -66903,7 +66903,8 @@ C2(a,b){var s,r,q,p,o,n=this,m="radioController"
 A.fJ().$1("currentIndex "+n.dx+" / levelIndex "+n.cx+" / gameList "+n.cy.length+" / selectedAner "+A.a(n.ax,m).ax)
 s=n.dy
 a.c=s
-if(s!=="one")a.f=a.r[A.a(n.ax,m).ax-1]
+if(s==="truefalse"&&A.a(n.ax,m).ax===1)a.r[0]="true"
+if(a.c!=="one")a.f=a.r[A.a(n.ax,m).ax-1]
 s=n.cy[n.cx].e
 r=s.length
 q=n.dx
